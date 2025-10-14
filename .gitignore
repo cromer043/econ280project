@@ -1,0 +1,89 @@
+# ========================
+# Data and large files
+# ========================
+*.csv
+*.tsv
+*.dta
+*.sav
+*.sas7bdat
+*.xlsx
+*.xls
+*.ods
+*.json
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.rds
+*.rdata
+*.pkl
+*.zip
+*.gz
+*.tar
+*.bz2
+
+# ========================
+# Jupyter and Python cache
+# ========================
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ========================
+# R-related files
+# ========================
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# ========================
+# OS and editor-specific files
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# ========================
+# Environment and virtual env
+# ========================
+.env
+.venv/
+venv/
+.envrc
+*.env
+
+# ========================
+# Logs and outputs
+# ========================
+*.log
+*.out
+*.err
+*.bak
+
+# ========================
+# Model artifacts
+# ========================
+*.model
+*.ckpt
+*.pt
+*.pth
+*.joblib
+
+# ========================
+# Allowlists — keep code & docs
+# ========================
+!*.py
+!*.ipynb
+!*.R
+!*.md
+!*.txt
+!*.yml
+!*.yaml
+!*.toml
+!*.json5
