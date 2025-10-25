@@ -1,0 +1,28 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	Endline math score	Endline Hindi score	Endline math score	Endline Hindi score	Endline math score	Endline Hindi score
+							
+treat	Treatment	0.47	0.27	0.38	0.26	0.37	0.24
+		(0.14)	(0.095)	(0.065)	(0.062)	(0.064)	(0.070)
+st_female1	Female	-0.050	0.21				
+		(0.14)	(0.15)				
+treat_fem	Treatment * Female	-0.13	-0.046				
+		(0.14)	(0.12)				
+m_theta_mle1	Baseline math score	0.57		0.57		0.53	
+		(0.052)		(0.048)		(0.076)	
+h_theta_mle1	Baseline Hindi score		0.68		0.65		0.70
+			(0.033)		(0.031)		(0.047)
+ses_index	SES index			-0.0028	0.099		
+				(0.035)	(0.021)		
+treat_ses	Treatment * SES index			0.023	-0.0041		
+				(0.050)	(0.041)		
+treat_lmath	Treatment * Baseline math score					0.081	
+						(0.087)	
+treat_lhindi	Treatment * Baseline Hindi score						-0.047
+							(0.071)
+Constant	Constant	0.36	0.012	0.32	0.17	0.32	0.17
+		(0.11)	(0.11)	(0.032)	(0.031)	(0.031)	(0.034)
+							
+Observations		535	537	535	537	535	537
+R-squared		0.399	0.474	0.398	0.494	0.399	0.473
+Number of strata		19	19	19	19	19	19
+Robust standard errors in parentheses							

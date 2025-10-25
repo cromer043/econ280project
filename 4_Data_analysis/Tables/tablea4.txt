@@ -1,0 +1,21 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Total attendance (days)	Total attendance (days)	Total attendance (days)	Total attendance (days)
+					
+st_female1	Female	3.90	2.65	3.03	4.06
+		(3.90)	(3.92)	(3.88)	(3.88)
+ses_index	SES index	-3.33	-3.53	-3.47	-3.21
+		(1.03)	(1.05)	(1.05)	(1.05)
+st_tui_math1	Attends Math extra tuition			-1.83	0.88
+				(4.43)	(4.55)
+st_tui_hindi1	Attends Hindi extra tuition			7.10	5.13
+				(4.40)	(4.53)
+m_theta_mle1	Baseline math score		-0.99	-0.88	-0.81
+			(2.17)	(2.24)	(2.24)
+h_theta_mle1	Baseline Hindi score		3.35	3.83	5.39
+			(2.12)	(2.15)	(2.14)
+Constant	Constant	46.6	47.5	45.3	43.7
+		(3.40)	(3.42)	(3.79)	(3.78)
+					
+Observations		313	310	310	301
+R-squared		0.038	0.046	0.056	0.120
+Robust standard errors in parentheses					

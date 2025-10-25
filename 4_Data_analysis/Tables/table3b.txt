@@ -1,0 +1,14 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	2 ch_sentence	2 ch_retrieve	2 ch_inference	2 ch_interpret
+					
+treat	Treatment	0.046	0.045	0.065	0.053
+		(0.022)	(0.016)	(0.022)	(0.015)
+h_theta_mle1	1 h_theta_mle	0.13	0.14	0.15	0.067
+		(0.017)	(0.0075)	(0.011)	(0.013)
+Constant	Constant	0.72	0.59	0.51	0.31
+		(0.011)	(0.0078)	(0.011)	(0.0077)
+					
+Observations		539	539	539	539
+R-squared		0.182	0.380	0.309	0.136
+Number of strata		19	19	19	19
+Robust standard errors in parentheses					

@@ -1,0 +1,31 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Math: At or above grade level	Math: Below grade level	Hindi: At or above grade level	Hindi: Below grade level
+					
+treat	Treatment	-0.030	0.059	0.095	0.10
+		(0.054)	(0.020)	(0.043)	(0.026)
+terc_t2m	Treatment*Tercile 2 (Math)	0.036	0.056		
+		(0.073)	(0.029)		
+terc_t3m	Treatment*Tercile 3 (Math)	0.13	0.023		
+		(0.080)	(0.032)		
+d_m_terc2	terc_math_1==     2.0000	0.026	0.0085		
+		(0.058)	(0.023)		
+d_m_terc3	terc_math_1==     3.0000	0.15	0.082		
+		(0.068)	(0.028)		
+m_theta_mle1	m_theta_mle1	-0.015	0.069		
+		(0.032)	(0.010)		
+terc_t2h	Treatment*Tercile 2 (Hindi)			-0.053	-0.071
+				(0.065)	(0.037)
+terc_t3h	Treatment*Tercile 3 (Hindi)			-0.044	-0.079
+				(0.062)	(0.033)
+d_h_terc2	terc_hindi_1==     2.0000			-0.011	0.092
+				(0.048)	(0.029)
+d_h_terc3	terc_hindi_1==     3.0000			0.15	0.18
+				(0.063)	(0.034)
+h_theta_mle1	h_theta_mle1			0.087	0.084
+				(0.023)	(0.011)
+Constant	Constant	0.24	0.45	0.39	0.49
+		(0.045)	(0.017)	(0.041)	(0.022)
+					
+Observations		291	511	292	513
+R-squared		0.096	0.371	0.301	0.433
+Robust standard errors in parentheses					

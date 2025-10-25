@@ -1,0 +1,3 @@
+V1: As migrated from aeaweb.org/journals website.
+V2: Updated with code that was missed during the migration.
+    - new file: analysis_mindspark_20180723.do

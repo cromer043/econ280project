@@ -1,0 +1,32 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	z_hindi	z_math	z_science	z_social	z_english	z_aggregate
+							
+treat	Treatment	0.058	-0.40	-0.15	-0.17	0.14	-0.052
+		(0.14)	(0.11)	(0.16)	(0.16)	(0.11)	(0.099)
+terc_t2h	Treatment*Tercile 2 (Hindi)	0.11		0.31	0.15	-0.30	0.063
+		(0.23)		(0.18)	(0.24)	(0.14)	(0.16)
+terc_t3h	Treatment*Tercile 3 (Hindi)	0.29		0.36	0.65	0.14	0.38
+		(0.18)		(0.19)	(0.24)	(0.15)	(0.13)
+d_h_terc2	terc_hindi1==     2.0000	-0.35		-0.39	-0.61	0.14	-0.29
+		(0.27)		(0.18)	(0.29)	(0.17)	(0.19)
+d_h_terc3	terc_hindi1==     3.0000	-0.23		-0.32	-1.02	0.096	-0.37
+		(0.31)		(0.21)	(0.38)	(0.20)	(0.21)
+h_theta_mle1	Baseline Hindi score	0.53		0.35	0.67	0.25	0.40
+		(0.17)		(0.083)	(0.19)	(0.11)	(0.10)
+terc_t2m	Treatment*Tercile 2 (Math)		0.55				
+			(0.20)				
+terc_t3m	Treatment*Tercile 3 (Math)		0.82				
+			(0.27)				
+d_m_terc2	terc_math1==     2.0000		-0.27				
+			(0.23)				
+d_m_terc3	terc_math1==     3.0000		-0.48				
+			(0.21)				
+m_theta_mle1	Baseline math score		0.33	0.096	0.27	0.11	0.16
+			(0.072)	(0.033)	(0.058)	(0.051)	(0.039)
+Constant	Constant	1.28	0.47	1.27	1.76	1.29	1.24
+		(1.09)	(0.40)	(0.39)	(0.76)	(0.74)	(0.60)
+							
+Observations		597	596	595	594	597	597
+R-squared		0.201	0.098	0.132	0.203	0.155	0.226
+Number of strata		19	19	19	19	19	19
+Robust standard errors in parentheses							

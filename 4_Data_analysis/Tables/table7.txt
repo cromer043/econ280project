@@ -1,0 +1,16 @@
+		(1)	(2)	(3)	(4)	(5)	(6)
+VARIABLES	LABELS	z_hindi	z_math	z_science	z_social	z_english	z_aggregate
+							
+treat	Treatment	0.196	0.059	0.077	0.108	0.081	0.100
+		(0.088)	(0.076)	(0.092)	(0.110)	(0.105)	(0.080)
+h_theta_mle1	Baseline Hindi score	0.487		0.292	0.414	0.305	0.336
+		(0.092)		(0.064)	(0.096)	(0.067)	(0.058)
+m_theta_mle1	Baseline math score		0.303	0.097	0.262	0.120	0.167
+			(0.041)	(0.036)	(0.058)	(0.052)	(0.039)
+Constant	Constant	1.006	0.142	0.931	1.062	1.487	0.977
+		(1.103)	(0.423)	(0.347)	(0.724)	(0.740)	(0.600)
+							
+Observations		597	596	595	594	597	597
+R-squared		0.190	0.073	0.121	0.177	0.144	0.210
+Number of strata		19	19	19	19	19	19
+Robust standard errors in parentheses							

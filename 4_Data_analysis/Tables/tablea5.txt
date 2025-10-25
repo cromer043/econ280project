@@ -1,0 +1,17 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Endline math score	Endline Hindi score	Endline math score	Endline Hindi score
+					
+att_tot	Total attendance (days)	0.0052	0.0079	0.0097	0.0070
+		(0.0054)	(0.0053)	(0.0072)	(0.0073)
+att_sq	Attendance squared	0.000028	-0.000058	-0.000014	-0.000048
+		(0.000073)	(0.000072)	(0.000083)	(0.000085)
+m_theta_mle1	Baseline math score	0.58		0.62	
+		(0.042)		(0.061)	
+h_theta_mle1	Baseline Hindi score		0.71		0.68
+			(0.040)		(0.052)
+Constant	Constant	0.31	0.18	0.20	0.19
+		(0.042)	(0.042)	(0.14)	(0.14)
+					
+Observations		535	537	264	265
+R-squared		0.429	0.496	0.446	0.446
+Robust standard errors in parentheses					

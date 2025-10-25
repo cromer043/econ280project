@@ -1,0 +1,14 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)
+VARIABLES	LABELS	2 cm_arithmetic	2 cm_word_compute	2 cm_data	2 cm_fraction	2 cm_geometry	2 cm_number	2 cm_patterns
+								
+treat	Treatment	0.078	0.072	0.042	0.071	0.15	0.15	0.11
+		(0.016)	(0.016)	(0.021)	(0.020)	(0.024)	(0.022)	(0.028)
+m_theta_mle1	1 m_theta_mle	0.13	0.11	0.082	0.093	0.052	0.068	0.099
+		(0.0080)	(0.010)	(0.015)	(0.012)	(0.014)	(0.012)	(0.016)
+Constant	Constant	0.66	0.50	0.38	0.33	0.39	0.45	0.36
+		(0.0079)	(0.0076)	(0.010)	(0.010)	(0.012)	(0.011)	(0.014)
+								
+Observations		537	537	537	537	537	537	537
+R-squared		0.357	0.229	0.097	0.157	0.097	0.135	0.112
+Number of strata		19	19	19	19	19	19	19
+Robust standard errors in parentheses								

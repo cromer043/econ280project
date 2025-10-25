@@ -1,0 +1,33 @@
+		(1)	(2)
+VARIABLES	LABELS	Endline math score	Endline Hindi score
+			
+treat	Treatment	0.33	0.41
+		(0.12)	(0.12)
+terc_t2m	Treatment*Tercile 2 (Math)	0.083	
+		(0.16)	
+terc_t3m	Treatment*Tercile 3 (Math)	0.068	
+		(0.16)	
+d_m_terc1	terc_math1==     1.0000	0.13	
+		(0.098)	
+d_m_terc2	terc_math1==     2.0000	0.30	
+		(0.073)	
+d_m_terc3	terc_math1==     3.0000	0.53	
+		(0.092)	
+m_theta_mle1	Baseline math score	0.44	
+		(0.066)	
+terc_t2h	Treatment*Tercile 2 (Hindi)		-0.30
+			(0.16)
+terc_t3h	Treatment*Tercile 3 (Hindi)		-0.24
+			(0.15)
+d_h_terc1	terc_hindi1==     1.0000		-0.072
+			(0.10)
+d_h_terc2	terc_hindi1==     2.0000		0.14
+			(0.068)
+d_h_terc3	terc_hindi1==     3.0000		0.46
+			(0.085)
+h_theta_mle1	Baseline Hindi score		0.58
+			(0.062)
+			
+Observations		535	537
+R-squared		0.545	0.545
+Robust standard errors in parentheses			
