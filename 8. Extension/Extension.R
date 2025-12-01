@@ -122,12 +122,15 @@ stargazer::stargazer(
     "Grade index (-1,0,1,2)",
     "Treatment × Grade index"
   ),
-  omit = "factor\\(strata\\)",
+  omit = c(
+    "factor\\(strata\\)",
+    "treat:grade_idx"
+    ),
   add.lines = list(
     c("Strata FE", "Yes", "Yes")
   ),
   title = "Effect of Mindspark by Ordered Grade Index",
-  out = "results/extension_grade_index.html"
+  out = "8. Extension/extension_grade_index.html"
 )
 
-cat("\nTable saved to: results/extension_grade_index.html\n")
+cat("\nTable saved to: 8. Extension/extension_grade_index.html\n")
